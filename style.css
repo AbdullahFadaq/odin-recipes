@@ -30,8 +30,67 @@ img {
 }
 
 hr {
+    margin: 20px 0;
     height:1px;
     border-width:0;
     color:black;
     background-color:black
 }
+
+li, p, a {
+    font-size: 19px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+ .ingredients-list li, h2{
+    list-style: none;
+    text-align: left;
+   width: 45%;
+   margin: 0 auto;
+   line-height: 2.0em;
+   padding: 12px 0;
+}
+
+.steps li{
+    text-align: left;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 2.0em;
+    padding: 12px 0;
+}
+
+
+.home-list li{ 
+    list-style: none;
+    text-align: left;
+    width: 20%;
+    margin-left: 0 auto;
+    line-height: 2.0em;
+    padding: 10px 0;
+}
+
+li:hover {
+    background: #c2a67c;
+    padding: 0.7em 1em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.return-home {
+    font-size: 25px;
+    display: block;
+    margin: 50px 0;
+}
+
+.return-home:hover {
+    background: #c2a67c;  
+}
+
+
+ 
